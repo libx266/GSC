@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{10675C9C-7F8D-4BCA-A912-347E11F2C338}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GSC</RootNamespace>
+    <AssemblyName>GSC</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Encrypter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\0.png" />
+    <Content Include="Resources\1.png" />
+    <Content Include="Resources\2.png" />
+    <Content Include="Resources\3.png" />
+    <Content Include="Resources\4.png" />
+    <Content Include="Resources\5.png" />
+    <Content Include="Resources\6.png" />
+    <Content Include="Resources\7.png" />
+    <Content Include="Resources\8.png" />
+    <Content Include="Resources\9.png" />
+    <None Include="Resources\default.png" />
+    <None Include="Resources\BLANK_UHD.PNG" />
+    <Content Include="Resources\_a.png" />
+    <Content Include="Resources\_b.png" />
+    <Content Include="Resources\_c.png" />
+    <Content Include="Resources\_d.png" />
+    <Content Include="Resources\_e.png" />
+    <Content Include="Resources\_enter.png" />
+    <Content Include="Resources\_f.png" />
+    <Content Include="Resources\_g.png" />
+    <Content Include="Resources\_h.png" />
+    <Content Include="Resources\_i.png" />
+    <Content Include="Resources\_j.png" />
+    <Content Include="Resources\_k.png" />
+    <Content Include="Resources\_l.png" />
+    <Content Include="Resources\_m.png" />
+    <Content Include="Resources\_n.png" />
+    <Content Include="Resources\_o.png" />
+    <Content Include="Resources\_p.png" />
+    <Content Include="Resources\_q.png" />
+    <Content Include="Resources\_r.png" />
+    <Content Include="Resources\_s.png" />
+    <Content Include="Resources\_t.png" />
+    <Content Include="Resources\_u.png" />
+    <Content Include="Resources\_v.png" />
+    <Content Include="Resources\_w.png" />
+    <Content Include="Resources\_x.png" />
+    <Content Include="Resources\_y.png" />
+    <Content Include="Resources\_z.png" />
+    <Content Include="Resources\_больше.png" />
+    <Content Include="Resources\_меньше.png" />
+    <Content Include="Resources\ё.png" />
+    <Content Include="Resources\а.png" />
+    <Content Include="Resources\б.png" />
+    <Content Include="Resources\в.png" />
+    <Content Include="Resources\вопрос.png" />
+    <Content Include="Resources\восклицательный_знак.png" />
+    <Content Include="Resources\вычитание.png" />
+    <Content Include="Resources\г.png" />
+    <Content Include="Resources\д.png" />
+    <Content Include="Resources\двоеточие.png" />
+    <Content Include="Resources\деление.png" />
+    <Content Include="Resources\е.png" />
+    <Content Include="Resources\ж.png" />
+    <Content Include="Resources\з.png" />
+    <Content Include="Resources\запятая.png" />
+    <Content Include="Resources\и.png" />
+    <Content Include="Resources\й.png" />
+    <Content Include="Resources\к.png" />
+    <Content Include="Resources\л.png" />
+    <Content Include="Resources\логическое_и.png" />
+    <Content Include="Resources\логическое_или.png" />
+    <Content Include="Resources\м.png" />
+    <Content Include="Resources\н.png" />
+    <Content Include="Resources\о.png" />
+    <Content Include="Resources\п.png" />
+    <Content Include="Resources\пробел.png" />
+    <Content Include="Resources\р.png" />
+    <Content Include="Resources\равно.png" />
+    <Content Include="Resources\с.png" />
+    <Content Include="Resources\скобка_левая.png" />
+    <Content Include="Resources\скобка_правая.png" />
+    <Content Include="Resources\сложение.png" />
+    <Content Include="Resources\т.png" />
+    <Content Include="Resources\точка.png" />
+    <Content Include="Resources\точка_с_запятой.png" />
+    <Content Include="Resources\у.png" />
+    <Content Include="Resources\умножение.png" />
+    <Content Include="Resources\ф.png" />
+    <Content Include="Resources\х.png" />
+    <Content Include="Resources\ц.png" />
+    <Content Include="Resources\ч.png" />
+    <Content Include="Resources\ш.png" />
+    <Content Include="Resources\щ.png" />
+    <Content Include="Resources\ъ.png" />
+    <Content Include="Resources\ы.png" />
+    <Content Include="Resources\ь.png" />
+    <Content Include="Resources\э.png" />
+    <Content Include="Resources\ю.png" />
+    <Content Include="Resources\я.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

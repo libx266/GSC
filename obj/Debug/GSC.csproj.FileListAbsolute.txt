@@ -1,0 +1,10 @@
+G:\MVS\GSC\bin\Debug\GSC.exe.config
+G:\MVS\GSC\bin\Debug\GSC.exe
+G:\MVS\GSC\bin\Debug\GSC.pdb
+G:\MVS\GSC\obj\Debug\GSC.csproj.AssemblyReference.cache
+G:\MVS\GSC\obj\Debug\GSC.Form1.resources
+G:\MVS\GSC\obj\Debug\GSC.Properties.Resources.resources
+G:\MVS\GSC\obj\Debug\GSC.csproj.GenerateResource.cache
+G:\MVS\GSC\obj\Debug\GSC.csproj.CoreCompileInputs.cache
+G:\MVS\GSC\obj\Debug\GSC.exe
+G:\MVS\GSC\obj\Debug\GSC.pdb
