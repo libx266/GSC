@@ -16,11 +16,6 @@ namespace GSC
         public Form1()
         {
             InitializeComponent();
-            string kurwa = "";
-            for (int i = 0; i < 60; i++)
-            {
-                kurwa += "k";
-            }
             richTextBox1.TextChanged += new EventHandler(Encode);
             pictureBox1.MouseClick += new MouseEventHandler(Save);
         }
